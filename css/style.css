@@ -20,21 +20,22 @@ nav ul li {
   font-family: "Roboto Mono", monospace;
 }
 
-.header {
+/* .header {
   height: auto;
   width: 100%;
   /* background-color: hotpink; */
 }
 
-.header h1 {
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+/* .header h1 {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin-top: 42px;
-}
+} */
 
 .about-info {
-  /* background-color: brown; */
+  width: 100%;
+  background-color: aqua;
   margin: -10px 0 50px 0;
   border-bottom: 1px solid #d6d6d6;
 }
@@ -49,20 +50,30 @@ nav ul li {
   border-radius: 50%;
 }
 
-.about {
-  /* background-color: crimson; */
+.aboutMe {
+ 
   width: 100%;
   margin: auto;
-  /* border-left: 1px solid #d6d6d6; */
-}
-
-.about p {
   padding: 20px 0;
 }
 
+.aboutMe h2{
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+}
+
+.aboutMe a.cv{
+  margin-left: 20px;
+}
+
+p.lead{
+  margin-top: 10px;
+}
+
 .skills {
-  padding-bottom: 50px;
+  padding: 50px 0;
   border-bottom: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
   margin-bottom: 50px;
 }
 
@@ -81,27 +92,40 @@ nav ul li {
 .myWork {
   width: 100%;
   /* background-color: greenyellow; */
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
-.projectsHeader {
+.myWork h4{
+  font-family: "Poppins", sans-serif;
+}
+
+.myWork p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+footer{
   width: 100%;
-  margin-bottom: 18px;
+  height: auto;
+  padding: 50px 0;
+  background-color: #d3d6db;
 }
 
-.projectsHeader h2 {
-  width: 100%;
-  text-align: center;
+footer a{
+  color: #3a3a3b;
 }
 
-section {
-  width: 100%;
-  /* background-color: azure; */
+footer a .googleFont{
+    font-family: "Roboto Mono", monospace;
+  
+  }
+
+footer a:hover{
+  text-decoration: none;
+  color: #3a3a3b;
 }
 
-section .img {
-  text-align: center center;
-}
+
 
 /******************************** MEDIA SCREEN MAX WIDTH 768PX ******************************/
 
@@ -112,6 +136,18 @@ section .img {
 
   .navbar-collapse ul li {
     margin-bottom: 10px;
+  }
+
+  .aboutMe h2{
+    text-align: center;
+  }
+
+  .aboutMe a{
+    margin-left: 80px;
+  }
+
+  .myWork img{
+    margin-bottom: 20px;
   }
 }
 
