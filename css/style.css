@@ -125,6 +125,26 @@ footer a:hover{
   color: #3a3a3b;
 }
 
+/* Contact Section */
+.contactInfo{
+  width: 100%;
+  height: 100vh;
+}
+
+.fullHeight{
+  height: 100%;
+}
+
+.contactInfo h4{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 200px 0 50px 0;
+}
+
+.text-center i span{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
 
 
 /******************************** MEDIA SCREEN MAX WIDTH 768PX ******************************/
@@ -138,17 +158,18 @@ footer a:hover{
     margin-bottom: 10px;
   }
 
-  .aboutMe h2{
-    text-align: center;
-  }
-
-  .aboutMe a{
-    margin-left: 80px;
-  }
-
   .myWork img{
     margin-bottom: 20px;
   }
+
+  .contactLinks{
+    display: none;
+  }
+
+  footer .text-center{
+    margin-bottom: 20px;
+  }
+
 }
 
 /********************************MEDIA SCREEN MAX WIDTH 480PX******************************/
@@ -161,6 +182,15 @@ footer a:hover{
   .navbar-collapse ul li {
     margin-bottom: 10px;
   }
+
+  .roundedImg{
+    margin-top: -50px;
+  }
+
+  .aboutMe h2{
+    text-align: center;
+  }
+
 }
 
 /********************************MEDIA SCREEN MAX WIDTH 992PX******************************/
