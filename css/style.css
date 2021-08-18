@@ -125,6 +125,45 @@ footer a:hover{
   color: #3a3a3b;
 }
 
+/* Resume section */
+.resume h5, h6, h7{
+  padding-left: 20px;
+}
+
+.resume h2{
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.resume h5{
+  margin-bottom: 30px;
+}
+
+.resume ul{
+  padding:0 60px 0 60px;
+  margin-bottom: 30px;
+}
+
+h7{
+  color: #040cb5;
+  margin-bottom: 10px;
+}
+
+h6{
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+h7.normalFont{
+  text-decoration: none;
+  color: black;
+}
+
+.digitalSkills{
+  margin-bottom: 50px;
+}
+
 /* Contact Section */
 .contactInfo{
   width: 100%;
