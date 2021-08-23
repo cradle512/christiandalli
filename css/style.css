@@ -95,8 +95,10 @@ p.lead{
   margin-bottom: 50px;
 }
 
-.myWork h4{
+.myWork h4 a{
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
 .myWork p{
