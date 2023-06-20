@@ -57,7 +57,7 @@ nav ul li {
   padding: 20px 0;
 }
 
-.aboutMe h2{
+.aboutMe h1{
   font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
 }
@@ -132,7 +132,7 @@ footer a:hover{
   padding-left: 20px;
 }
 
-.resume h2{
+.resume h1{
   width: 100%;
   margin-bottom: 50px;
   text-align: center;
